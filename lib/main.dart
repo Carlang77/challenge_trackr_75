@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'habits_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -50,8 +51,7 @@ class _MyHomePageState extends State<MyHomePage>
       body: TabBarView(
         controller: _tabController,
         children: [
-          // Placeholder Widgets for each tab
-          Center(child: Text('Habits Page')),
+          HabitsPage(), // Make sure to import 'habits_page.dart'
           Center(child: Text('Stats Page')),
           Center(child: Text('Settings Page')),
         ],
