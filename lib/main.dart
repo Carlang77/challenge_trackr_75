@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'habits_page.dart';
+import 'stats_page.dart';
+import 'settings_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -51,9 +53,9 @@ class _MyHomePageState extends State<MyHomePage>
       body: TabBarView(
         controller: _tabController,
         children: [
-          HabitsPage(), // Make sure to import 'habits_page.dart'
-          Center(child: Text('Stats Page')),
-          Center(child: Text('Settings Page')),
+          HabitsPage(),
+          StatsPage(), // Make sure this is added
+          SettingsPage(), // And this
         ],
       ),
     );
