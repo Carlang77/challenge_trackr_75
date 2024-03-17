@@ -1,22 +1,15 @@
-class Habit {
-  String title;
-  bool isCompleted;
-
-  Habit({required this.title, this.isCompleted = false});
-}
-
 class DailyProgress {
   final DateTime date;
   final int completedHabits;
   final int totalHabits;
 
-  DailyProgress(
-      {required this.date,
-      required this.completedHabits,
-      required this.totalHabits});
+  DailyProgress({
+    required this.date,
+    required this.completedHabits,
+    required this.totalHabits,
+  });
 }
 
-// Mock data representing a week of progress
 List<DailyProgress> mockDailyProgress = [
   DailyProgress(
       date: DateTime.now().subtract(Duration(days: 6)),
@@ -30,5 +23,16 @@ List<DailyProgress> mockDailyProgress = [
       date: DateTime.now().subtract(Duration(days: 4)),
       completedHabits: 3,
       totalHabits: 5),
-  // Add more entries for each day
+  DailyProgress(
+      date: DateTime.now().subtract(Duration(days: 3)),
+      completedHabits: 5,
+      totalHabits: 5),
+  DailyProgress(
+      date: DateTime.now().subtract(Duration(days: 2)),
+      completedHabits: 4,
+      totalHabits: 5),
+  DailyProgress(
+      date: DateTime.now().subtract(Duration(days: 1)),
+      completedHabits: 5,
+      totalHabits: 5),
 ];

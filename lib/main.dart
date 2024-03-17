@@ -54,8 +54,8 @@ class _MyHomePageState extends State<MyHomePage>
         controller: _tabController,
         children: [
           HabitsPage(),
-          StatsPage(), // Make sure this is added
-          SettingsPage(), // And this
+          StatsPage(),
+          SettingsPage(),
         ],
       ),
     );

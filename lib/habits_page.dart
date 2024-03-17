@@ -12,10 +12,7 @@ class HabitsPage extends StatelessWidget {
         return CheckboxListTile(
           title: Text(habit.title),
           value: habit.isCompleted,
-          onChanged: (bool? value) {
-            // Note: This won't work as expected since the widget is stateless.
-            // You would need to use a state management approach to properly handle changes.
-          },
+          onChanged: (bool? value) {},
         );
       },
     );
