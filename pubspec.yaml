@@ -15,6 +15,7 @@ dependencies:
   flutter:
     sdk: flutter
   fl_chart: ^0.36.0
+  table_calendar: ^3.0.0
 
 
   cupertino_icons: ^1.0.2
@@ -22,6 +23,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  
 
 
   flutter_lints: ^2.0.0

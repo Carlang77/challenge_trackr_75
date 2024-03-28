@@ -30,5 +30,5 @@ List<DailyProgress> mockDailyProgress = [
       date: DateTime.now().subtract(Duration(days: 4)),
       completedHabits: 3,
       totalHabits: 5),
-  // Add more entries for each day
+  // Will add more entries for each day
 ];

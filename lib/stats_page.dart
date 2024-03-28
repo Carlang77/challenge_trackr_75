@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class StatsPage extends StatelessWidget {
-  // Example progress value. This could be dynamically calculated.
+  //Progress value. Will be dynamically calculated.
   final double progress = 0.75; // 75%
 
   @override
