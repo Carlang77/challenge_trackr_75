@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'habit.dart';
-import 'habit_data.dart';
+import '../model/habit.dart';
+import '../habit_data.dart';
 
 class HabitsPage extends StatelessWidget {
   @override

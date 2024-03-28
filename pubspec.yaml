@@ -16,7 +16,8 @@ dependencies:
     sdk: flutter
   fl_chart: ^0.36.0
   table_calendar: ^3.0.0
-
+  provider: ^5.0.0 #
+  shared_preferences: ^2.0.6
 
   cupertino_icons: ^1.0.2
 

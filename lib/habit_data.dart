@@ -1,4 +1,4 @@
-import 'habit.dart';
+import 'model/habit.dart';
 
 List<Habit> mockHabits = [
   Habit(title: "Drink 4 liters of water"),
